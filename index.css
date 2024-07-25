@@ -163,11 +163,20 @@ body{
     justify-content: space-between;
 }
 .big-list{
-    padding: 25px 30px;
+    padding: 25px 0px;
     font-size: 20px;
+    margin-right: -30px;
+    margin-left: -30px;
+}
+.big-list li{
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .offical-image{
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     text-align: right;
 }
 .offical-image ul{
@@ -226,6 +235,9 @@ body{
 }
 .design-glass{
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-md.png?raw=true");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     text-align: center;
 }
 .design-glass h2{
@@ -265,6 +277,12 @@ body{
 }
 .service-list{
     justify-content: space-between;
+}
+.socal-icon img{
+    width: 48px;
+    height: 48px;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 .alert-list{
     justify-content: space-between;
