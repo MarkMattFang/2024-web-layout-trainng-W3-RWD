@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}  
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}  
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}  
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}  
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}  
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}  
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}  
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}  
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}  
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}  
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+*/
+.noto-sans-tc {
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+Body{
+    font-family: "Roboto", sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+.d-flex{
+    display: flex;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.header{
+    background-color: #aa0601;
+    color: #ffffff;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.header img{
+    width: 80px; 
+    height: 48.57px;
+    margin-top: 16px;
+    margin-bottom: 15.43px;
+}
+.website-bg{
+    justify-content: space-between;
+}
+.big-list{
+    padding: 25px 30px;
+    font-size: 20px;
+}
+.offical-image{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true");
+    text-align: right;
+}
+.offical-image ul{
+    padding: 296px 0;
+}
+.season-title{
+    color: #650300;
+    font-size: 36px;
+}
+.look-clear{
+    color: #650300;
+    font-size: 64px;
+}
+.purchase-now{
+    background-color: #aa0601;
+    color: #ffffff;
+    font-size: 20px;
+}
+.product-feature{
+    background-color: #fbf2f2;
+}
+.product-feature h2{
+    font-size: 40px;
+    color: #650300;
+    text-align: center;
+    padding-top: 80px;
+}
+.feature-card{
+    text-align: center;
+}
+.feature-card ul{
+    width: calc(25% - 18px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feature-card h3{
+    color: #650300;
+    font-size: 24px;
+}
+.feature-card p{
+    font-size: 16px;
+    text-align: left;
+    text-decoration: uppercase;
+}
+.classic-glass h2{
+    font-size: 48px;
+    text-align: center;
+    color: #650300;
+    padding-top: 80px;
+}
+.classic-glass p{
+    color: #aa0601;
+    font-size: 48px;
+    text-align: center;
+}
+.design-glass{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-md.png?raw=true");
+    text-align: center;
+}
+.design-glass h2{
+    color: #ffffff;
+    font-size: 48px;
+    padding-top: 80px;
+}
+.design-glass ul{
+    background-color: #ffffff;
+}
+.design-glass p{
+    color: #aa0601;
+    font-size: 48px;
+}
+.recommendation h2{
+    color: #650300;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 80px;
+}
+.recommendation li{
+    border: 1px solid grey; 
+}
+.contact-us{
+    background-color: #fbf2f2;
+}
+.contact-us h2{
+    color: #650300;
+    font-size: 48px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.footer{
+    background-color: #aa0601;
+    color: #ffffff;
+}
+.service-list{
+    justify-content: space-between;
+}
+.alert-list{
+    justify-content: space-between;
+}
+@media (max-width: 992px){
+    .feature-card ul{
+        width: calc(50% - 12px);
+    }
+}
