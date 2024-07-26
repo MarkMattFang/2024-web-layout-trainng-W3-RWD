@@ -129,6 +129,11 @@ img{
     height: auto;
     vertical-align: middle;
 }
+svg{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
 .body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -138,6 +143,9 @@ a{
     text-decoration: none;
     display: inline-block;
     color: inherit;
+}
+a:hover{
+    color: black;
 }
 .d-flex{
     display: flex;
@@ -193,6 +201,10 @@ body{
     color: #650300;
     font-size: 64px;
     padding: 16px 0;
+}
+.purchase-frame{
+    display: flex;
+    justify-content: end;
 }
 .purchase-now{
     width: 104px;
@@ -301,7 +313,7 @@ body{
     margin-left: -12px;
 }
 .recommendation li{
-    border: 1px solid grey;
+    border: 2px solid #Dee2E6;
     margin-right: 12px;
     margin-left: 12px;
     margin-bottom: 80px;
@@ -335,6 +347,47 @@ body{
 .contact-us p{
     font-size: 20px;
     padding: 5px 0;
+}
+form{
+    margin-top: 24px;
+}
+.form-label{
+    font-size: 16px;
+    padding: 4px 0;
+    margin: 8px 0;
+}
+.form-fill{
+    width: 636px;
+    padding: 6px 12px;
+    margin-top: 8px;
+}
+.form-comment {
+    width: 636px;
+    padding: 6px 12px;
+    padding-bottom: 106px;
+    margin: 8px 0;
+}
+.click-square svg{
+    margin: 4px 4px;
+}
+.click-square p{
+    font-size: 16px;
+    padding: 4px 0;
+    text-align: start;
+}
+.submit-frame{
+    display: block;
+    text-align: center;
+}
+.submit{
+    color: #ffffff;
+    font-size: 16px;
+    width: 416px;
+    padding: 16px 0;
+    background-color: #aa0601;
+    border: #ffffff;
+    margin-top: 48px;
+    margin-bottom: 80px;
 }
 .footer{
     background-color: #aa0601;
@@ -392,6 +445,31 @@ body{
 .policy li{
     padding-right: 48px;
 }
+@media (max-width: 768px){
+    .d-flex{
+        flex-wrap: wrap;
+    }
+    body{
+        padding: 0 36px;
+    }
+    .offical-image{
+        background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true");
+    }
+    .functional-card{
+        width: calc(25% -12px);
+    }
+    .design-glass{
+        background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-md.png?raw=true");
+    }
+    .recommendation li{
+        width: 100%;
+    }
+    .icon2{
+        margin-right: 16px;
+        margin-left: 16px;
+    } 
+};
+    
 @media (max-width: 992px){
     .feature-card ul{
         width: calc(50% - 12px);
