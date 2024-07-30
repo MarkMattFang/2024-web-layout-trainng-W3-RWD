@@ -138,6 +138,7 @@ svg{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    line-height: 1.5;
 }
 a{
     text-decoration: none;
@@ -149,9 +150,6 @@ a:hover{
 }
 .d-flex{
     display: flex;
-}
-body{
-    font-family: "Roboto", sans-serif;
 }
 .header{
     background-color: #aa0601;
@@ -182,213 +180,85 @@ body{
     padding-right: 30px;
     padding-left: 30px;
 }
-.offical-image{
-    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: right;
-}
-.offical-image ul{
-    padding: 296px 0;
-}
-.season-title{
-    color: #650300;
-    font-size: 36px;
-    padding: 9px 0;
-}
-.look-clear{
-    color: #650300;
-    font-size: 64px;
-    padding: 16px 0;
-}
-.purchase-frame{
-    display: flex;
-    justify-content: end;
-}
-.purchase-now{
-    width: 104px;
-    display: block;
-    margin-right: auto;
-    text-align: center;
-    background-color: #aa0601;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 6px 12px;
-    margin: 4px 0;
-}
-.product-feature{
-    background-color: #fbf2f2;
-}
-.product-feature ul{
-    margin-right: -12px;
-    margin-left: -12px;
-}
-.product-feature h2{
-    font-size: 40px;
-    color: #650300;
-    text-align: center;
-    padding-top: 80px;
-}
-.feature-card{
-    text-align: center;
-    padding: 0 12px;
-}
-.feature-card li{
-    width: calc(25% - 18px);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.feature-card img{
-    width: 100px;
-    padding: 24px 0;
-}
-.feature-card h3{
-    color: #650300;
-    font-size: 24px;
-    padding: 6px 0;
-    margin: 8px 0;
-}
-.feature-card p{
-    width: 306px;
-    font-size: 16px;
-    text-align: left;
-    text-transform: uppercase;
-    margin-bottom: 80px;
-}
-.classic-glass ul{
-    margin-right: -12px;
-    margin-left: -12px;
-}
-.classic-glass li{
-    padding-right: 12px;
-    padding-left: 12px;
-}
-.classic-glass h2{
+.store-location h2{
     font-size: 48px;
-    text-align: center;
-    color: #650300;
-    padding: 12px 0;
-    margin-top: 80px;
+    margin-top: 96px;
+    margin-bottom: 32px;
+    padding: 0 16px;
+    border-left: 8px solid #aa0601;
+}
+.choose-store{
     margin-bottom: 40px;
 }
-.classic-glass p{
-    color: #aa0601;
-    font-size: 48px;
-    text-align: center;
-    padding: 12px 0;
+.choose-store h3{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-right: 16px;
+}
+.drop-option{
+    border: 1px solid #ced4da;
+}
+.drop-option p{
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 6px 12px;
+    padding-right: 202px;
+}
+.drop-option svg{
+    margin: 7px 12px;
+}
+.taiwan-store{
     margin-bottom: 80px;
 }
-.design-glass{
-    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-md.png?raw=true");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: center;
+.office-detail{
+    flex-wrap: wrap;
 }
-.design-glass h2{
-    color: #ffffff;
-    font-size: 48px;
-    padding-top: 92px;
-    padding-bottom: 52px;
+.office-detail li{
+    width: 416px;
 }
-.design-glass li{
-    background-color: #ffffff;
-    margin-bottom: 80px;
+.office-detail h4{
+    font-size: 24px;
+    line-height: 1.5;
+    padding: 8px 24px;
+    border: 1px solid #00000020;
 }
-.design-glass p{
-    color: #aa0601;
-    font-size: 48px;
+.office-detail ul{
+    padding-top: 16px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    border: 1px solid #00000020;
 }
-.recommendation h2{
-    color: #650300;
-    font-size: 48px;
-    text-align: center;
-    padding-top: 92px;
-    padding-bottom: 52px;
-}
-.recommendation ul{
+.office-detail ul{
     margin-right: -12px;
     margin-left: -12px;
 }
-.recommendation li{
-    border: 2px solid #Dee2E6;
+.office-detail li{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 8px;
     margin-right: 12px;
     margin-left: 12px;
-    margin-bottom: 80px;
 }
-.try-frame{
-    padding: 16px 16px;
+.office-contact{
+    margin-right: -12px;
+    margin-left: -12px;
 }
-.try-frame .try-man{
-    font-size: 16px;
-    padding: 4px 0;
-    margin-bottom: 8px;
+.office-contact li{
+    margin-right: 12px;
+    margin-left: 12px;
 }
-.try-date{
-    color: #707070;
-    margin-top: 72px;
+.office-detail svg{
+    margin-right: 8px;
 }
-.contact-us{
-    background-color: #fbf2f2;
-}
-.contact-us h2{
-    color: #650300;
-    font-size: 48px;
-    padding-top: 92px;
-    padding-bottom: 52px;
-    text-align: center;
-}
-.contact-frame{
-    width: 636px;
-    margin: 0 auto;
-}
-.contact-us p{
-    font-size: 20px;
-    padding: 5px 0;
-}
-form{
-    margin-top: 24px;
-}
-.form-label{
-    font-size: 16px;
-    padding: 4px 0;
-    margin: 8px 0;
-}
-.form-fill{
-    width: 636px;
-    padding: 6px 12px;
-    margin-top: 8px;
-}
-.form-comment {
-    width: 636px;
-    padding: 6px 12px;
-    padding-bottom: 106px;
-    margin: 8px 0;
-}
-.click-square svg{
-    margin: 4px 4px;
-}
-.click-square p{
-    font-size: 16px;
-    padding: 4px 0;
-    text-align: start;
-}
-.submit-frame{
-    display: block;
-    text-align: center;
-}
-.submit{
+.detail-info{
+    font-size: 19px;
+    padding: 16px 0px;
+    line-height: 1.5;
     color: #ffffff;
-    font-size: 16px;
-    width: 416px;
-    padding: 16px 0;
-    background-color: #aa0601;
-    border: #ffffff;
-    margin-top: 48px;
-    margin-bottom: 80px;
+    background-color: black;
+    text-align: center;
 }
+
 .footer{
     background-color: #aa0601;
     color: #ffffff;
@@ -445,29 +315,13 @@ form{
 .policy li{
     padding-right: 48px;
 }
-@media (max-width: 992px){
-    .feature-card ul{
-        width: calc(50% - 12px);
-    }
-}
+
 @media (max-width: 768px){
     .d-flex{
         flex-wrap: wrap;
     }
     body{
         padding: 0 36px;
-    }
-    .offical-image{
-        background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true");
-    }
-    .functional-card{
-        width: calc(50% -12px);
-    }
-    .design-glass{
-        background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-md.png?raw=true");
-    }
-    .recommendation li{
-        width: calc(50% -12px);
     }
     .icon2{
         margin-right: 16px;
@@ -481,20 +335,13 @@ form{
     .big-list li{
         border: 1px solid white;
     }
+    .store-location h2{
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 24px;
+    }
     .list-frame li{
         display: none;
-    }
-    .contact-frame{
-        width: 348px;
-    }
-    .contact-us p{
-        font-size: 16px;
-    }
-    .form-fill{
-        width: 348px;
-    }
-    .form-comment {
-        width: 348px;
     }
     .socal-icon img{
         width: 24px;
