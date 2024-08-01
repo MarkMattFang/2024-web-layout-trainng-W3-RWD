@@ -138,7 +138,6 @@ svg{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.5;
 }
 a{
     text-decoration: none;
@@ -184,93 +183,87 @@ a:hover{
     margin-right: 32px;
     margin-left: 32px;
 }
-.three-option ul{
-    justify-content: space-between;
+.search-list{
+    background-color: #650300;
 }
-.three-option li{
-    font-size: 32px;
-    padding: 24px 0px;
+.four-items ul{
+    margin: 0 -24px;
+}
+.four-items li{
+    color: #ffffff;
+    font-size: 20px;
     line-height: 1.5;
-    border: 1px solid #dcdcdc;
+    padding: 13px 0;
+    margin: 0 24px;
 }
-.three-option .option1{
-    padding-right: 150px;
-    padding-left: 150px;
-    border-bottom: 8px solid #aa0601;
+.search-list svg{
+    padding: 13px 0;
 }
-.three-option .option2{
-    padding-right: 116px;
-    padding-left: 116px;
-}
-.three-option .option3{
-    padding-right: 119px;
-    padding-left: 119px;
-}
-.optical-products ul{
-    margin-bottom: 80px;
-    margin-right: -12px;
-    margin-left: -12px;
-}
-.optical-products .product-line{
+.content-event{
+    width: 66%;
     margin-right: 12px;
-    margin-left: 12px;
 }
-.optical-image img{
-    width: 50%;
-}
-.optical-products h2{
-    font-size: 42px;
-    text-align: center;
-    line-height: 1.5;
-    margin-top: 80px;
-}
-.optical-products h3{
-    font-size: 32px;
-    text-align: center;
-    line-height: 1.5;
-    margin-bottom: 32px;
-}
-.glass-model p{
-    font-size: 24px;
+.event-list{
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 8px;
     line-height: 1.5;
 }
-.glass-model .price{
+.event-list span{
     color: #aa0601;
 }
-.color-block1{
+.two-tages{
+    color: #aa0601;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
+.content-event h1{
+    font-size: 48px;
+    line-height: 1.5;
+}
+.content-event h3{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+.blog-part img{
+    margin-bottom: 8px;
+}
+.blog-part li{
+    margin-bottom: 40px;
+}
+.blog-part p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.share-btn{
+    font-size: 16px;
+    line-height: 1.5;
+    border-bottom: 1px solid black ;
+}
+.share-btn img{
     width: 24px;
     height: 24px;
-    background-color: #5f3e2d;
-    border-radius: 4px;
-    margin-right: 4px;
+    margin-left: 16px;
+    margin-bottom: 18px;
 }
-.color-block2{
-    width: 24px;
-    height: 24px;
-    background-color: #b75929;
-    border-radius: 4px;
-    margin-left: 4px;
-}
-.page-block{
-    width: 372px;
-    height: 48px;
-    margin: 0 auto;
+.page-swith{
+    font-size: 16px;
+    margin-top: 22px;
     margin-bottom: 80px;
 }
-.page-block ul{
-    justify-content: center;
+.content-tags{
+    color: #aa0601;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 110px;
+    margin-left: 12px;
 }
-.page-block li{
-    padding: 12px 16px;
-    border: 1px solid #555555;
-}
-.page-block .up-down-page{
-    background-color: #f2f2f2;
-    padding: 11px 12px;
-}
-.page-block .page2{
-    background-color: black;
-    color: #ffffff;
+.tag-line p{
+    margin-right: 24px;
+    margin-bottom: 4px;
 }
 .footer{
     background-color: #aa0601;
